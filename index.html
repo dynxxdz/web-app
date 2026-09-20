@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>from where i am, all the way to where you are</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="letter-shell" aria-live="polite">
+    <section class="page active" id="page-1">
+      <h1 class="script hero-title">from where i am, all the way to where you are</h1>
+      <img class="hero-photo" src="assets/running.jpg" alt="Two people running together at night" />
+      <div class="intro-copy">
+        <p class="lead">i made a little something for you</p>
+        <p>before you go any further<br>play this song for me first, oki?</p>
+        <button class="play-btn" id="playButton" type="button">PLAY</button>
+      </div>
+      <button class="next-btn" data-next="2" type="button">next</button>
+    </section>
+
+    <section class="page" id="page-2">
+      <img class="wide-photo" src="assets/hands.jpg" alt="Two people holding hands" />
+      <h2 class="script section-title">all roads in me somehow lead to you</h2>
+      <div class="letter-text">
+        <p>I honestly don’t know pano ko sisimulan to without making it sound super serious, kasi I’ve been wanting to tell you all of this properly for a while now.</p>
+        <p>I’ve been thinking about us a LOT lately, about how we started, how we got closer, and how somehow you became such a big part of my days without me even noticing when exactly it happened.</p>
+        <p>I like hearing about your day, your random thoughts, your reklamos, literally anything you wanted to tell me. Then eventually, I started looking for you in my days. Something funny happens, ikaw gusto kong sabihan. I’d see something and somehow, ikaw na naman naiisip ko. You’re always on my mind, even when I’m trying to think of literally anything else.</p>
+        <p>And somewhere along the way, “crush kita” stopped being enough to describe it. Nung una nga I was so in denial about it. I kept telling myself na happy crush lang to kasi honestly I thought walang chance na we’d get to where we are right now. I just liked talking to you, I was enjoying the little kilig you gave me. At least, that’s what I kept convincing myself.</p>
+        <p>Talking to you became something I genuinely looked forward to, and getting to know you only made me want to know you more. And somewhere between all our random conversations, the teasing, the lambing, and everything in between, I realized that maybe I had stopped being honest with myself.<br>The more I got to know you, the more I realized na I don’t want whatever this is between us to just stay where it is.</p>
+      </div>
+      <button class="next-btn" data-next="3" type="button">next</button>
+    </section>
+
+    <section class="page" id="page-3">
+      <div class="letter-text page-three-copy">
+        <p>There are so many things about you that made me fall for you, and most of them aren’t even big things.</p>
+        <p>It’s the way you talk to me. How you get shy sometimes. The way you can be makulit and maarte with me, and somehow I never get tired of it. Those random things you tell me, the little updates, even the moments when you’re not feeling like yourself. I like getting to know all those versions of you.</p>
+        <p>I like that I’m slowly learning you, not just the easy and happy parts, but also the parts that you don’t always know how to explain.</p>
+        <p>And I don’t expect you to always be okay around me. You don’t have to be entertaining, sweet, or in a good mood all the time just for me to want to stay. I want to know you as you are. On your good days, bad days, lazy days, tahimik days, and even the days when you just want to sleep the whole day.</p>
+        <p>I know we’re far from each other, and sometimes I really wish I could just be there. There are moments when talking through a screen doesn’t feel enough because I want to actually spend time with you, see you, take you somewhere, give you the things I make for you myself, and just exist beside you.</p>
+        <p>But even with the distance, you’ve managed to make yourself feel so close to me.</p>
+        <p>And maybe that’s one of my favorite things about us.</p>
+        <p>You’re miles away, but somehow, you’ve become one of the closest people to my heart.</p>
+      </div>
+      <img class="quote-photo" src="assets/frank-ocean.jpg" alt="Quote: someone loves everything you hate about you — Frank Ocean" />
+      <button class="next-btn" data-next="4" type="button">next</button>
+    </section>
+
+    <section class="page" id="page-4">
+      <blockquote class="final-quote">
+        <span class="script">“If you were coming in the fall,<br>I’d brush the summer by”</span>
+        <cite>— Emily Dickinson</cite>
+      </blockquote>
+      <div class="letter-text final-copy">
+        <p>I’ve been holding myself back from saying certain things because I wanted to make sure that when I finally said them, I meant them. I didn’t want to throw around words just because they sounded romantic.</p>
+        <p>But the longer I’ve known you, the harder it became to pretend that what I feel for you is something small.<br>You’ve become someone I genuinely care about. Someone I miss even after we’ve just talked. Someone I want to make things for, write things for, annoy, lambing, comfort, and hopefully someday make a lot of memories with, not through a screen anymore, but beside each other.</p>
+        <p>And I don’t know exactly what the future will look like for us. I don’t want to pretend I have everything figured out.</p>
+        <p>I just know that I want to find out with you.</p>
+        <p>I want to pursue you intentionally. I want to show you that what I feel isn’t just something I say when I’m feeling soft at 2 AM. I want to prove it through the little things, through my actions, and through the way I continue showing up for you.</p>
+        <p>If you’ll let me,<br><span class="accent">I want to court you.</span></p>
+        <p>I want to do this properly. Slowly, sincerely, and in a way that makes you feel safe and sure about me.</p>
+        <p>No pressure, no expectations. You can take all the time you need.</p>
+        <p class="question">May I court you?</p>
+        <p class="signoff">— yours, hopefully</p>
+      </div>
+      <button class="back-btn" data-next="1" type="button" aria-label="Return to the beginning">↺</button>
+    </section>
+  </main>
+
+  <audio id="bgMusic" preload="auto" loop>
+    <source src="assets/Tsunami.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="rotate-note">
+    <div>♡</div>
+    <p>open this on a laptop or turn your phone sideways, baby.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
